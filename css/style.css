@@ -1,0 +1,98 @@
+/*
+ *
+ * Cagatay OZATA
+ *
+ */
+
+/* Elements */
+ body {
+
+   font-family: 'Orbitron', sans-serif;
+
+ }
+
+ h1 {
+
+   font-size: 25px;
+
+ }
+
+/* Table */
+ table {
+
+   border:2px solid #000;
+   z-index: -5;
+
+   }
+
+ td {
+
+   width:60px;
+   height:60px;
+   border:1px solid #ccc;
+
+   }
+
+   td.snakeCell {
+
+     background-image: url('../img/snake-graphics.png');
+
+   }
+
+   td.snakeHead {
+
+     background-image: url('../img/snake-graphics.png');
+
+   }
+
+/* Header */
+#header {
+
+  margin: 40px auto 30px auto;
+  width: 700px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+input[type=checkbox] {
+
+  transform: scale(2) !important;
+
+}
+
+label {
+
+  margin-left: 10px;
+  font-size: 18px;
+
+}
+
+.name {
+
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  margin: 35px 0 25px 0;
+
+}
+
+/* Game Area */
+#game_area {
+
+  margin: 10px auto;
+  width: 700px;
+
+}
+
+#result {
+
+    font-family: 'Cinzel', serif;
+    font-size: 200px;
+    color : #ccc;
+    position :absolute;
+    top: 37%;
+    left: 37%;
+    z-index:-1;
+
+}
