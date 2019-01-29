@@ -1,1 +1,3 @@
-# javascript_snake
+# Snake Game
+
+By Cagatay Ozata
